@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estructuras de HTML5</title>
     <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="icon" href="/CSS/ICONOS/1_html-5.png">
+    <link rel="icon" href="/CSS/ICONOS/1_html-5.png" type="image/x.icon">
 </head>
 
 <body>
@@ -30,6 +30,20 @@
             </nav>
         </header>
         <ol>
+            <li>
+                <details>
+                    <summary> Etiquetas especiales: </summary>
+                    <dfn>
+                        <ul>
+                            <li>Espacio: & nbsp; (sin el espacio)</li>
+                            <li>Símbolo mayor que: & lt; ➡️ &lt; (sin el espacio)</li>
+                            <li>Símbolo mayor que: & gt; ➡️ &gt; (sin el espacio)</li>
+                            <li>Comando para abrir el panel de los emojis: Tecla Windows + punto </li>
+                            <li>Para comentar en HTML se escribe dentro de: &lt;!-- comentario --&gt;</li>
+                        </ul>
+                    </dfn>
+                </details>
+            </li>
             <li>
                 <details>
                     <summary id="1"> Las etiquetas para los títulos van del h1 al h6 </summary>
@@ -271,9 +285,152 @@
                     </dfn>
                 </details>
             </li>
-
+            <li>
+                <details>
+                    <summary> Listas </summary>
+                    <dfn>
+                        <ul>
+                            <li>
+                                <details>
+                                    <summary>Listas Ordenadas:</summary>
+                                    <dfn>
+                                        <ol>
+                                            <li>Primer Item</li>
+                                            <li>Segundo Item</li>
+                                            <li>Tercer Item</li>
+                                            <li>Cuarto Item</li>
+                                        </ol>
+                                        <ul>
+                                            <details>
+                                                <summary> Su estructura es: </summary>
+                                                <dfn>
+                                                    <p>
+                                                        <code>
+                                                            &lt;ol&gt; <br>
+                                                                &nbsp; &lt;li&gt; Primer Item &lt;/li&gt; <br>
+                                                                &nbsp; &lt;li&gt; Segundo Item &lt;/li&gt; <br>
+                                                                &nbsp; &lt;li&gt; Tercer Item &lt;/li&gt; <br>
+                                                                &nbsp; &lt;li&gt; Cuarto Item &lt;/li&gt; <br>
+                                                            &lt;/ol&gt; 
+                                                        </code>
+                                                    </p>
+                                                    <ul>
+                                                        <details>
+                                                            <summary>Atributos:</summary>
+                                                            <dfn>
+                                                                <ol type="A">
+                                                                    <li>
+                                                                        Podemos elejir como empieza la lista: type="A".<br>
+                                                                        Podemos usar: A, a, 1, i(N° romanos).
+                                                                    </li>
+                                                                    <li>Ejemplo</li>
+                                                                    <li>Ejemplo</li>
+                                                                </ol>
+                                                            </dfn>
+                                                        </details>
+                                                    </ul>
+                                                </dfn>
+                                            </details>
+                                        </ul>
+                                    </dfn>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>Listas desordenadas:</summary>
+                                    <dfn>
+                                        <ul>
+                                            <li>Item</li>
+                                            <li>Item</li>
+                                            <li>Item</li>
+                                            <li>Item</li>
+                                        </ul>
+                                        <ul>
+                                            <details>
+                                                <summary> Su estructura es: </summary>
+                                                <dfn>
+                                                    <p>
+                                                        <code>
+                                                            &lt;ul type="square"&gt; <br>
+                                                                &nbsp; &lt;li&gt; Item &lt;/li&gt; <br>
+                                                                &nbsp; &lt;li&gt; Item &lt;/li&gt; <br>
+                                                                &nbsp; &lt;li&gt; Item &lt;/li&gt; <br>
+                                                                &nbsp; &lt;li&gt; Item &lt;/li&gt; <br>
+                                                            &lt;/ul&gt;
+                                                            <ul>
+                                                                <li>
+                                                                    <details>
+                                                                        <summary>Atributos</summary>
+                                                                        <dfn>
+                                                                            <ul type="none">
+                                                                                <li>type="square": Símbolo cuadrado</li>
+                                                                                <li>type="nome": Elimina el simbolo</li>
+                                                                            </ul>
+                                                                        </dfn>
+                                                                    </details>
+                                                                </li>
+                                                            </ul>
+                                                        </code>
+                                                    </p>
+                                                </dfn>
+                                            </details>
+                                        </ul>
+                                    </dfn>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>Lista de descripción:</summary>
+                                    <dfn>
+                                        <code>
+                                            &lt;dl&gt;  <br>
+                                            &nbsp;&nbsp; &lt;dt&gt; Título &lt;/dt&gt; <br>
+                                            &nbsp;&nbsp; &lt;dd&gt; Descripción. &lt;/dd&gt; <br>
+                                            &lt;/dl&gt;
+                                        </code>
+                                    </dfn>
+                                </details>
+                            </li>
+                        </ul>
+                    </dfn>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary> Imsertar imagenes:</summary>
+                    <dfn>
+                        <ul>
+                            <li>
+                                Utilizamos la etiqueta &lt;img&gt; <br>
+                                Ejemplo: &lt;img &nbsp;src="url" &nbsp; alt="descripción"&gt;
+                                <details>
+                                    <summary>Esta tiene dos atributos:</summary>
+                                    <dfn>
+                                        <ol>
+                                            <li>src="url"</li>
+                                            <li>alt="descripción"</li>
+                                        </ol>
+                                    </dfn>
+                                </details>
+                                <figure class="contenedor__img">
+                                    <img class="img__proceso" src="https://www.mancomunidaddetentudia.com/portal/wp-content/uploads/2020/05/viajar-focus-0-0-983-557.jpg" alt="Viaje en avion">
+                                </figure>
+                                <details>
+                                    <summary>Contenedor de img</summary>
+                                    <dfn> 
+                                        &lt;figure&gt; <br>
+                                        <p> &lt;img &nbsp;src="url" &nbsp; alt="descripción"&gt; </p>
+                                        &lt;/figure&gt;
+                                    </dfn>
+                                </details>
+                            </li>
+                        </ul>
+                    </dfn>
+                </details>
+            </li>
         </ol>
         <a href="#home"> Home </a>
     </main>
 </body>
 </html>
+
