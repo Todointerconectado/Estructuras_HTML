@@ -90,3 +90,9 @@ p {
     width: 100%;
     border-radius: 10px;
 }
+
+/* Tablas */
+
+fieldset {
+    margin: 5px 20px;
+}

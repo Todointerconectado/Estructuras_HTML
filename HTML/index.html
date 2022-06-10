@@ -474,7 +474,7 @@
                                                         <area title="instagram" shape="circle" coords="217,109,28" 
                                                         href="https://www.instagram.com/p/CWUJnqxlVsj/?utm_source=ig_web_copy_link" target="_black" alt="fotografía">
                                                         
-                                                        <area title="tiempo" shape="poly" coords="224,199,229,208,240,209,249,207,258,208,258,195,243,196,234,189,228,189,250,193" href="https://www.instagram.com/reel/CaSqmFdsvxX/?utm_source=ig_web_copy_link" alt="Reloj">
+                                                        <area title="tiempo" shape="poly" coords="224,199,229,208,240,209,249,207,258,208,258,195,243,196,234,189,228,189,250,193" href="https://www.instagram.com/reel/CaSqmFdsvxX/?utm_source=ig_web_copy_link" target="_black" alt="Reloj">
                                                     </map>
                                                 </dfn>
                                             </details>
@@ -504,6 +504,240 @@
                                         </li>
                                     </ul>
                                     <dfn>
+                                </details>
+                            </li>
+                        </ul>
+                    </dfn>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary id="11">Crear Tablas </summary>
+                    <dfn>
+                        <ul>
+                            <li>
+                                <details>
+                                    <summary> Estructura basica </summary>
+                                    <dfn>
+                                        <ul>
+                                            <li>
+                                                Etiqueta contenedor: &lt;table&gt; &lt;/table&gt;<br>
+                                                Atributo: border="1"
+                                            </li>
+                                            <li>Título de la tabla: &lt;caption&gt; &lt;/caption&gt;</li>
+                                            <li>Etiqueta de fila (table raw): &lt;tr&gt; &lt;/tr&gt;</li>
+                                            <li>
+                                                Etiqueta contenido de fila encabezados (tabla heading): &lt;th&gt; &lt;/th&gt;<br>
+                                                Atributo 1: colspan="N° de columnas a combinar"
+                                                Atributo 2: rowspan="N° de filas a combinar"
+                                            </li>
+                                            <li>Etiqueta contenido de fila normal: &lt;td&gt; &lt;/td&gt;</li><hr>
+                                            <code>
+                                                &lt;table border="1"&gt;<br>
+                                                    &nbsp; &lt;caption&gt;Mis horarios&lt;/caption&gt;<br>
+                                                    &nbsp; &lt;tr&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;th colspan="3"&gt;HORARIO&lt;/th&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;th colspan="2"&gt;Fin de semana&lt;/th&gt;<br>
+                                                    &nbsp; &lt;/tr&gt;<br>
+
+                                                    &nbsp; &lt;tr&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;th&gt;Lunes&lt;/th&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;th&gt;Martes&lt;/th&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;th&gt;Miércoles&lt;/th&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;th&gt;Jueves&lt;/th&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;th&gt;Viernes&lt;/th&gt;<br>
+                                                    &nbsp; &lt;/tr&gt;<br>
+
+                                                    &nbsp; &lt;tr&gt;<br>
+                                                    &nbsp;&nbsp;&nbsp; &lt;th rowspan="3"&gt;Programar&lt;/th&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Programar&lt;/td&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Programar&lt;/td&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Programar&lt;/td&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Programar&lt;/td&gt;<br>
+                                                    &nbsp; &lt;/tr&gt;<br>
+
+                                                    &nbsp; &lt;tr&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Programar&lt;/td&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Programar&lt;/td&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Programar&lt;/td&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Programar&lt;/td&gt;<br>
+                                                    &nbsp; &lt;/tr&gt;<br>
+
+                                                    &nbsp; &lt;tr&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Programar&lt;/td&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Programar&lt;/td&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Descansar&lt;/td&gt;<br>
+                                                        &nbsp;&nbsp;&nbsp; &lt;td&gt;Descansar&lt;/td&gt;<br>
+                                                    &nbsp; &lt;/tr&gt;<br>
+                                                &lt;/table&gt;<br>
+                                            </code>
+                                        </ul>
+                                    </dfn>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary> Ejemplo de tabla </summary>
+                                    <dfn>
+                                        <table border="1">
+                                            <caption> Mis horarios </caption>
+                                            <tr>
+                                                <th colspan="3"> HORARIO </th>
+                                                <th colspan="2"> Fin de semana </th>
+                                            </tr>
+                                            <tr>
+                                                <th> Lunes </th>
+                                                <th> Martes </th>
+                                                <th> Miércoles </th>
+                                                <th> Jueves </th>
+                                                <th> Viernes </th>
+                                            </tr>
+                                            <tr>
+                                                <th rowspan="3"> Programar </th>
+                                                <td> Programar </td>
+                                                <td> Programar </td>
+                                                <td> Programar </td>
+                                                <td> Programar </td>
+                                            </tr>
+                                            <tr>
+                                                <td> Programar </td>
+                                                <td> Programar </td>
+                                                <td> Programar </td>
+                                                <td> Programar </td>
+                                            </tr>
+                                            <tr>
+                                                <td> Programar </td>
+                                                <td> Programar </td>
+                                                <td> Descansar </td>
+                                                <td> Descansar </td>
+                                            </tr>
+                                        </table>
+                                    </dfn>
+                                </details>
+                            </li>
+                        </ul>
+                    </dfn>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary id="12"> Formularios </summary>
+                    <dfn>
+                        <ul>
+                            <li>
+                                <details>
+                                    <summary> Estructura </summary>
+                                    <dfn>
+                                        <ul>
+                                            <li>
+                                                Etiqueta contenedora: &lt;form&gt; &lt;/form&gt;<br>
+                                                Atribito: action="dirección a donde enviar los datos"
+                                            </li>
+                                            <li>
+                                                Para las entradas: &lt;input&gt;<br>
+                                                <table border="1">
+                                                    <caption>Atributos básicos</caption>
+                                                    <tr>
+                                                        <th>Atribito</th>
+                                                        <th>Descripción</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> type="#" </td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>Tipo texto:&nbsp; type="text"</li>
+                                                                <li>Tipo password:&nbsp; type="password"</li>
+                                                                <li>Tipo submit:&nbsp; type="submit"</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> id="#" </td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>Es el identificador unico que se enlaza con el &lt;label for=""&gt; Usuario: &lt;/label&gt;</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> name="#" </td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>Es la información que se enviara al servidor.</li>
+                                                                <li>Ejemplo del name tendra: name="User" y value="David"</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> value="#" </td>
+                                                        <td>
+                                                            <ul>
+                                                                <li>Es la información que se enviara al servidor.</li>
+                                                                <li>Ejemplo del value tendra: name="Pass" y value="12345"</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2">Ejemplo: &lt;input type="#" id="#" name="#" value="#"&gt;</td>
+                                                    </tr>
+                                                </table>
+                                            </li>
+                                            <li>
+                                                Para los input usamos &lt;label &nbsp; for=""&gt; &lt;/label&gt; para darle el nombre (que se le da con el id="#")<br>
+                                            </li>
+                                            <li>
+                                                Podemos usar &lt;fieldset&gt; &lt;/fieldset&gt; para encapsular una sección de datos. <br>
+                                                Le damos un nombre con la etiqueta &lt;legend&gt; Colocamos el Nombre &lt;/legend&gt;
+                                            </li>
+                                        </ul>
+                                    </dfn>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>Ejemplo práctico</summary>
+                                    <dfn>
+                                        <form action="#">
+                                            <fieldset>
+                                                <legend> Datos del Usuario </legend>
+
+                                                <label for="name">Usuario:</label><br>
+                                                <input type="text" id="name" name="Usuario"><br><br>
+
+                                                <label for="pass"> Contraseña </label><br>
+                                                <input type="password" id="pass" name="Contraseña"><br><br>
+
+                                                <label for="gmail">gmail:</label><br>
+                                                <input type="email" id="gmail" name="gmail"><br><br>
+
+                                                <label for="birthday">Fecha de nacimiento:</label><br>
+                                                <input type="date" id="birthday" name="birthday"><br> <br>
+
+                                                <label for="cv">Ingresa tu CV:</label>
+                                                <input type="file" id="cv" name="cv"> <br> <br>
+
+                                                <fieldset>
+                                                    <legend>
+                                                        <label for="Description"> Breve biografía </label>
+                                                    </legend>
+                                                    <textarea name="Description" id="Description" cols="auto" rows="5">Escribe tu texto...</textarea>
+                                                </fieldset>
+                                            </fieldset>
+                                            
+                                            <fieldset>
+                                                <legend> Color favorito </legend>
+                                                
+                                                <input type="radio" id="red" name="color" value="red">
+                                                <label for="red">Rojo</label><br>
+
+                                                <input type="radio" id="blue" name="color" value="blue">
+                                                <label for="blue">Azul</label><br>
+
+                                                <input type="radio" id="greed" name="color" value="greed">
+                                                <label for="greed">Verde</label><br>
+                                            </fieldset>
+                                        </form>
+                                    </dfn>
                                 </details>
                             </li>
                         </ul>
