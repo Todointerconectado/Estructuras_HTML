@@ -56,7 +56,7 @@ main {
     display: flex;
     padding: 20px 50px;
     gap: 15px;
-    font-size: 30px;
+    font-size: 25px;
 }
 a {
     color: #860808;
@@ -95,4 +95,8 @@ p {
 
 fieldset {
     margin: 5px 20px;
+}
+
+abbr {
+    text-decoration: none;
 }
