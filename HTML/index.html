@@ -34,7 +34,6 @@
                     <a href="#12">12</a>
                     <a href="#13">13</a>
                     <a href="#14">14</a>
-                    <a href="#15">15</a>
                 </ul>
             </nav>
         </header>
@@ -50,6 +49,127 @@
                             <li>Comando para abrir el panel de los emojis: Tecla Windows + punto </li>
                             <li>Para comentar en HTML se escribe dentro de: &lt;!-- comentario --&gt;</li>
                             <li>Símbolo de copi ray &copy;: & copy; (sin el espacio) </li>
+                            <li>Espacio: &lt;br&gt;</li>
+                            <li>linea: &lt;hr&gt;</li>
+                            <li>
+                                Etiqueta de descripción: &lt;abbr&gt; &lt;/abbr&gt;
+                                <details>
+                                    <summary>Ejemplo de &lt;abbr&gt; &lt;/abbr&gt;</summary>
+                                    <dfn>
+                                        Estructura: &lt;p&gt;Aprender &lt;abbr&gt; title="HyperTexT Markup Lenguage"&gt;HTML&lt;/abbr&gt; es genial!&lt;/p&gt; <br>
+                                        <p>Muestra: Aprender <abbr title="HyperTexT Markup Lenguage">HTML</abbr> es genial!</p>
+                                    </dfn>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary> Etiqueta &lt;base href=""&gt; (Este va en el &lt;head&gt;) </summary>
+                                    <dfn>
+                                        Podemos quitar la ruta raiz de las url y ponerla en la respectiva base. <br>
+                                        Recordar que podemos tener una etiqueta &lt;base href=""&gt; por página.
+                                    </dfn>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>Sitar a un autor</summary>
+                                    <ul>
+                                        <li>
+                                            <details>
+                                                <summary> &lt;blockquote&gt; </summary>
+                                                <ul>
+                                                    <li>Dentro de &lt;blockquote&gt; colocamos el bloque de texto. </li>
+                                                    <li>Le colocamos el atributo: cite="" para mostrar donde encontramos la información.</li>
+                                                    <li>Etiqueta: &lt;cite&gt; para colocar el nombre del autos. </li>
+                                                    <details>>
+                                                        <summary>Ejemplo</summary>
+                                                        <blockquote cite="https://www.google.com/search?q=albert+einstein+frases&rlz=1C1CHBF_esAR914AR914&sxsrf=ALiCzsbqXfa_enyk3Y4vj-WZfn2pKyBFEA%3A1655090989644&ei=La-mYrz0JvOQ1sQP07u8-A8&oq=albert+einstein+fra&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwguELADECc6BwgAEEcQsAM6BwgAELADEEM6CggAEOQCELADGAE6DAguEMgDELADEEMYAjoECAAQQzoECC4QQzoKCAAQgAQQhwIQFDoICAAQgAQQsQNKBAhBGABKBAhGGAFQ6AhY8w5g8yNoAXABeACAAV-IAcMCkgEBNJgBAKABAcgBEcABAdoBBggBEAEYCdoBBggCEAEYCA&sclient=gws-wiz">
+                                                            <section>
+                                                                <h1>Las citas más célebres</h1>
+                                                                <p>Dos cosas son infinitas: la estupdez humana y el niverso; y no estoy seguro de lo segundo.</p>
+                                                                <p>La imaginación es más importante que el conocimiento. ...</p>
+                                                                <p>El problema del hombre no está en la bomba atómica, sino en su corazón.</p>
+                                                                <p>La raza es un fraude.</p>
+                                                            </section>
+                                                        </blockquote>
+                                                        <cite>Albert Einstein. </cite>
+                                                    </details>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary>Sita pequeña: </summary>
+                                                <ul>
+                                                    <li>&lt;q&gt;: para dirijirte al auto</li>
+                                                    <li>Estructura: <br> &lt;p&gt; Albert Einstein también dijo: <br> &nbsp; &nbsp; &nbsp; 
+                                                        &lt;q&gt;Cada día sabemos más y entendemos menos.&lt;/q&gt; <br> &lt;/p&gt; <br>
+                                                        Muestra:<p>
+                                                            Albert Einstein también dijo:
+                                                            <q>Cada día sabemos más y entendemos menos.</q>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>Con la etiqueta &lt;code&gt; &lt;/code&gt; mostras código en la pantalla de la web.</li>
+                            <li>
+                                <details>
+                                    <summary>Asociamos una palabra a un código con la etiqueta: &lt;data&gt;</summary>
+                                    <dfn>
+                                        <ul>
+                                            &lt;li&gt; &lt;data value="34568951"&gt; Arroz &lt;/data&gt; &lt;/li&gt; <br>
+                                            &lt;li&gt; &lt;data value="34568952"&gt; Harina &lt;/data&gt; &lt;/li&gt; <br>
+                                            &lt;li&gt; &lt;data value="34568953"&gt; Aceíte &lt;/data&gt; &lt;/li&gt; <br>
+                                            <li> <data value="34568951" > Arroz </data> </li>
+                                            <li> <data value="34568952" > Harina </data> </li>
+                                            <li> <data value="34568953"> Aceíte </data> </li>
+                                        </ul>
+                                    </dfn>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>La etiqueta &lt;iframe&gt; permite insertar parte de una página externa en tu página. </summary>
+                                    <ul>
+                                        <li>Es util cuando queremos insertar videos, mapas, etc de otros citios.</li>
+                                        <li>
+                                            <details>
+                                                <summary>Ejemplo de inserción de mapa</summary>
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://acortar.link/TLCzC0" target="_black">Vamos al mapa</a>
+                                                    </li>
+                                                    <li>
+                                                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                                                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                                                        src="https://acortar.link/i1a8cF" ></iframe>
+                                                    </li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>Colocar texto con formato pre definido</summary>
+                                    <ul>
+                                        <li>Utilizamos la etiqueta: &lt;pre&gt;</li>
+                                        <li>
+                                            <pre>
+Ojalá no te hagan lo que me hiciste aquella vez
+Ojalá que te arrepientas siempre y que quieras volver
+No me digas que me amas, porque esa ya me la sé
+Ojalá que sufras cada vez que me veas con él ...
+                                            </pre>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
                         </ul>
                     </dfn>
                 </details>
@@ -88,22 +208,14 @@
             </li>
             <li>
                 <details>
-                    <summary id="4"> Espacio de enter y linea de separación</summary>
-                    <dfn> <p> Espacio: &lt;br&gt; </p></dfn>
-                    <dfn> <p> linea: &lt;hr&gt; </p></dfn>
-                    <hr width="400px"> <br>
-                </details>
-            </li>
-            <li>
-                <details>
-                    <summary id="5"> Resaltar con Negrita una palabra </summary>
+                    <summary id="4"> Resaltar con Negrita una palabra </summary>
                     <dfn> <p> Negrita: &lt;b&gt; (<b>palabra</b> o texto) &lt;/b&gt; </p> <dfn></dfn>
                     <dfn> <p> Negrita (fuerza de búscador): &lt;strong&gt; (<strong>palabra</strong> o texto) &lt;/strong&gt; </p> <dfn>
                 </details>
             </li>
             <li>
                 <details>
-                    <summary id="6"> Cursiva con y sin énfasos. </summary>
+                    <summary id="5"> Cursiva con y sin énfasos. </summary>
                     <dfn>
                         <p> Cursiva: &lt;b&gt; (palabra) &lt;/b&gt; </p>
                     </dfn>
@@ -114,7 +226,7 @@
             </li>
             <li>
                 <details>
-                    <summary id="7"> Etiquetas de estructura de una página Web </summary>
+                    <summary id="6"> Etiquetas de estructura de una página Web </summary>
                     <dnf>
                         <ul>
                             <li> 
@@ -139,10 +251,10 @@
                             </li>
                             <li>  
                                 <details>
-                                    <summary> &lt;aside&gt; &lt;/aside&gt; </summary>
+                                    <summary>Importancia semantica &lt;aside&gt; &lt;/aside&gt; </summary>
                                     <dfn>
                                         <p>
-                                            Información adicional a contenido principal.
+                                            Información adicional aclarando el contenido principal. <br><br>
                                         </p>
                                     </dfn>
                                 </details>
@@ -172,7 +284,10 @@
                                     <summary> &lt;article&gt; &lt;/article&gt; </summary>
                                     <dfn>
                                         <p>
-                                            Se dividen distintos articulos. Por ejemplo, los blog
+                                            Se dividen distintos articulos. Por ejemplo, los blog. <br><br>
+                                            Este puede contener su respectivo &lt;header&gt;, Título (&lt;h&gt;) y párrafos (&lt;p&gt;) <br><br>
+                                            Una caracteristica de los article es que son indeendiente del contenido general de la página.
+                                            Esto quiere decir, que un articulo se puede agregar, remover, re utilizar, etc. 
                                         </p>
                                     </dfn>
                                 </details>
@@ -185,6 +300,19 @@
                                             Información de pie de página. Información de contactos y legales mayor mente.
                                         </p>
                                     </dfn>
+                                    <ul>
+                                        <li>
+                                            <details>
+                                                <summary>Escribir Dirección semantico dentro del &lt;footer&gt; &lt;address&gt; &lt;/address&gt; </summary>
+                                                <address>
+                                                    Escripo por Francisco Carusso <br>
+                                                    Visitanos en: <br>
+                                                    <a href="https://www.youtube.com/channel/UCY8m1JDOQFr1RvnrUnOiKMQ">YouTube</a>
+                                                    Codijo Postal 1748, General Rodriguez Argentina
+                                                </address>
+                                            </details>
+                                        </li>
+                                    </ul>
                                 </details>
                             </li>
                             <li>
@@ -213,7 +341,7 @@
             </li>
             <li>
                 <details>
-                    <summary id="8"> Enlaces: Etiqueta &lt;a&gt; Ir a &lt;/a&gt; </summary>
+                    <summary id="7"> Enlaces: Etiqueta &lt;a&gt; Ir a &lt;/a&gt; </summary>
                     <dfn>
                         <p> 
                             Las etiquetas &lt;a&gt; &lt;/a&gt; llevan un atributo que permite colocar la dirección a donde queremos ir. sea una url o una sección de la misma página.
@@ -297,7 +425,7 @@
             </li>
             <li>
                 <details>
-                    <summary id="9"> Listas </summary>
+                    <summary id="8"> Listas </summary>
                     <dfn>
                         <ul>
                             <li>
@@ -401,13 +529,59 @@
                                     </dfn>
                                 </details>
                             </li>
+                            <li>
+                                <details>
+                                    <summary>Lista despegables</summary>
+                                    <dfn>
+                                        <ul>
+                                            <li>
+                                                <details>
+                                                    <summary>Estructura</summary>
+                                                    <code>
+                                                        &lt;fieldset&gt; <br>
+                                                            &lt;legend&gt;Lista despegable&lt;/legend&gt; <br>
+                                                            &lt;input list="colors" placeholder="selecciona color..."&gt; <br>
+                                                            &lt;datalist id="colors"&gt; <br>
+                                                                &nbsp; &nbsp; &lt;option value="Amarillo"&gt; &lt;/option&gt; <br>
+                                                                &nbsp; &nbsp; &lt;option value="Rojo"&gt; &lt;/option&gt; <br>
+                                                                &nbsp; &nbsp; &lt;option value="verde"&gt; &lt;/option&gt; <br>
+                                                                &nbsp; &nbsp; &lt;option value="Azul"&gt; &lt;/option&gt; <br>
+                                                                &nbsp; &nbsp; &lt;option value="Negro"&gt; &lt;/option&gt; <br>
+                                                            &lt;/datalist&gt; <br>
+                                                        &lt;/fieldset&gt;
+                                                    </code>
+                                                </details>
+                                            </li>
+                                            <li>
+                                                <details>
+                                                    <summary>Ejemplo</summary>
+                                                    <dfn>
+                                                        <h3>Etiqueta &lt;datalist&gt;</h3>
+                                                        <fieldset>
+                                                            <legend>Lista despegable</legend>
+                                                            <input list="colors" placeholder="selecciona color...">
+                                                            <datalist id="colors">
+                                                                <option value="Amarillo"></option>
+                                                                <option value="Rojo"></option>
+                                                                <option value="verde"></option>
+                                                                <option value="Azul"></option>
+                                                                <option value="Negro"></option>
+                                                            </datalist>
+                                                        </fieldset>
+                                                    </dfn>
+                                                </details>
+                                            </li>
+                                        </ul>
+                                    </dfn>
+                                </details>
+                            </li>
                         </ul>
                     </dfn>
                 </details>
             </li>
             <li>
                 <details>
-                    <summary id="10"> Insertar imagenes:</summary>
+                    <summary id="9"> Insertar imagenes:</summary>
                     <dfn>
                         <ul>
                             <li>
@@ -425,10 +599,11 @@
                                     </dfn>
                                 </details>
                                 <details>
-                                    <summary>Contenedor de img</summary>
+                                    <summary>Contenedor de img y leyenda</summary>
                                     <dfn> 
                                         &lt;figure&gt; <br>
-                                        <p> &lt;img &nbsp;src="url" &nbsp; alt="descripción" &nbsp; title="título" &nbsp; height="altura de la imagen" &gt; </p>
+                                        &nbsp; &nbsp; &lt;img &nbsp;src="url" &nbsp; alt="descripción" &nbsp; title="título" &nbsp; height="altura de la imagen" &gt; <br>
+                                        &nbsp; &nbsp; &lt;figcaption&gt; leyenda de la imagen. &lt;/figcaption&gt; <br>
                                         &lt;/figure&gt;
                                     </dfn>
                                 </details>
@@ -437,6 +612,7 @@
                                     <dfn>
                                         <figure class="contenedor__img">
                                             <img class="img__proceso" src="https://www.mancomunidaddetentudia.com/portal/wp-content/uploads/2020/05/viajar-focus-0-0-983-557.jpg" alt="Viaje en avion" title="Sueño de viajar">
+                                            <figcaption> hombre con maleta viendo un avion. </figcaption>
                                         </figure>
                                     </dfn>
                                 </details>
@@ -446,6 +622,11 @@
                                         <a href="https://www.instagram.com/francisco_carusso/" target="_black">
                                             <figure class="contenedor__img">
                                                 <img class="img__proceso" src="/CSS/IMG/3_Instagram icon logo.png" alt="imagen de Instagram con link" title="instagram" height="200px">
+                                            </figure>
+                                        </a>
+                                        <a href="https://wa.me/message/NDFDMQDDCCIBB1" target="_black">
+                                            <figure class="contenedor__img">
+                                                <img class="img__proceso" src="/CSS/ICONOS/Whatsapp.png" alt="logo de whatsapp" title="Whatsapp">
                                             </figure>
                                         </a>
                                     </dfn>
@@ -519,7 +700,7 @@
             </li>
             <li>
                 <details>
-                    <summary id="11">Crear Tablas </summary>
+                    <summary id="10">Crear Tablas </summary>
                     <dfn>
                         <ul>
                             <li>
@@ -622,13 +803,56 @@
                                     </dfn>
                                 </details>
                             </li>
+                            <li>
+                                <details>
+                                    <summary>Estilos a ciertas columnas de tus tablas</summary>
+                                    <dfn>
+                                        <ul>
+                                            <li>Usamos la etiqueta &lt;col&gt; que tiene que estar dentro de la etiqueta &lt;colgroup&gt;</li>
+                                            <li>Dentro de col usamos el atributo style="background-color: aqua;"</li>
+                                            <li>Si queremos más columnas le agregamos el atributo span="N° DE COLUMNAS"</li>
+                                            <li>
+                                                &lt;colgroup&gt; <br> &nbsp; &nbsp;
+                                                    &lt;col style="background-color: aqua;"&gt; <br> &nbsp; &nbsp;
+                                                    &lt;col span="2" style="background-color: rgb(54, 184, 65);"&gt;  <br>
+                                                &lt;/colgroup&gt;
+                                            </li>
+                                        </ul>
+                                        Ejemplo: <br>
+                                        <table border="1">
+                                            <colgroup>
+                                                <col style="background-color: aqua;">
+                                                <col span="2" style="background-color: rgb(54, 184, 65);">
+                                            </colgroup>
+                                            <caption>Título</caption>
+                                            <tr>
+                                                <th>Lunes</th>
+                                                <th>Martes</th>
+                                                <th>Miercoles</th>
+                                            </tr>
+                                            <tr>
+                                                <td>estudiar</td>
+                                                <td>entrenar</td>
+                                                <td>entrenar</td>
+                                            </tr>
+                                            <tr>
+                                                <td>descansar</td>
+                                                <td>descansar</td>
+                                                <td>descansar</td>
+                                            </tr>
+                                        </table>
+                                        
+                                        
+                                    </dfn>
+                                </details>
+                            </li>
                         </ul>
                     </dfn>
                 </details>
             </li>
             <li>
                 <details>
-                    <summary id="12"> Formularios </summary>
+                    <summary id="11"> Formularios </summary>
                     <dfn>
                         <ul>
                             <li>
@@ -749,9 +973,18 @@
 
                                                 <label for="colores">Lista de colores:</label>
                                                 <select name="colores" id="colores">
-                                                    <option value="blue">Azul</option>
-                                                    <option value="red">Rojo</option>
-                                                    <option value="green">Verde</option>
+
+                                                    <optgroup label="Simples">
+                                                        <option value="blue">Azul</option>
+                                                        <option value="red">Rojo</option>
+                                                        <option value="green" selected>Verde</option>
+                                                    </optgroup>
+                                                    <optgroup label="Compuestos">
+                                                        <option value="Yellow">Amarillo</option>
+                                                        <option value="Pink">Rosa</option>
+                                                        <option value="white">Branco</option>
+                                                        <option value="Black">Negro</option>
+                                                    </optgroup>
                                                 </select>
                                             </fieldset>
                                             <fieldset>
@@ -782,7 +1015,7 @@
             </li>
             <li>
                 <details>
-                    <summary id="13"> Ingresar Videos y audio </summary>
+                    <summary id="12"> Ingresar Videos y audio </summary>
                     <dfn>
                         <ul>
                             <li>
@@ -880,7 +1113,7 @@
             </li>
             <li>
                 <details>
-                    <summary id="14"> Dibujar gráficos <abbr title="Scalable Vector Graphics">SVG</abbr> en HTML5 </summary>
+                    <summary id="13"> Dibujar gráficos <abbr title="Scalable Vector Graphics">SVG</abbr> en HTML5 </summary>
                     <dfn>
                         <ul>
                             <li>
@@ -1013,7 +1246,7 @@
             </li>
             <li>
                 <details>
-                    <summary> Proyecto Final Estructura HTML</summary>
+                    <summary id="14"> Proyecto Final Estructura HTML</summary>
                     <dfn>
                         <ul>
                             <li>
